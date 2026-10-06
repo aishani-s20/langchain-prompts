@@ -21,8 +21,6 @@ For dynamic prompts, LangChain uses **Prompt Templates**. These provide a struct
 
 When a model is invoked, the interaction generally falls into one of two categories, depending on how messages are passed.
 
-![Model Invocation Tree](image_07bc6f.jpg)
-
 ### A. Single Message (Single-Turn / Standalone Queries)
 Used for one-off questions where previous context is not needed.
 * **Static Message:** Handled using plain text strings.
