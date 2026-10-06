@@ -1,0 +1,13 @@
+# Core LangChain dependencies used by the project
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-huggingface
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# UI used in prompt_ui.py
+streamlit>=1.30.0
+
+# Environment Variable Management
+python-dotenv
